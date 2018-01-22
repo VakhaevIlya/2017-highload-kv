@@ -14,6 +14,9 @@ dependencies {
     // Annotations for better code documentation
     compile("com.intellij:annotations:12.0")
 
+    //High-lib hashmap for Cache
+    compile("com.github.stephenc.high-scale-lib:high-scale-lib")
+
     // JUnit test framework
     testCompile("junit:junit:4.12")
 
